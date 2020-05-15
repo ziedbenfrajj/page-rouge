@@ -1,0 +1,76 @@
+.global-container{
+    min-height: 1000px;
+    background: #edf0f5;
+    padding: 30px;
+    color: #343434;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.progress-container{
+    background: #FFF;
+    min-height: 500px;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.progress-container .block{
+    margin-top: 50px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    opacity: .8;
+    border: 1px solid #ccc;
+    box-shadow: -3px -3px 5px #DDD,3px 3px 5px #DDD;
+    
+}
+.progress-container .block ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.progress-container .block ul li{
+    list-style: none;
+}
+.progress-container .block .qrCode{
+    position: absolute;
+    top:40px;
+    right: 30px;;
+}
+.progress-container .block .verified{
+    position: absolute;
+    bottom:40px;
+    right: 30px;;
+}
+.progress-container .custom-hr{
+    position: relative;
+}
+.progress-container .custom-hr hr{
+    transform: rotate(90deg);
+    width: 450px;
+    position: absolute;
+    top: 300px;
+    left: -180px;
+}
+.progress-container .custom-hr .verified-i{
+    top: 140px;
+    position: absolute;
+    left: 22px;
+    font-size: 44px;
+}
+.progress-container .cancel-hr hr{
+    transform: rotate(90deg);
+    width: 110px;
+    position: absolute;
+    top: 110px;
+    left: -10px;
+}
+.progress-container .cancel-hr .cancel-i{
+    top: 100px;
+    position: absolute;
+    left: 33px;
+    font-size: 24px;
+}
+
+.clear-fix{
+    clear: both;
+    height: 10px;
+}
